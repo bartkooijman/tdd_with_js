@@ -5,3 +5,6 @@ In this repository you can find the solutions to the exercises used in the Front
 - The solutions for exercise 4 can be found in [vloercalculator-karma](./vloercalculator-karma)
 
 [vloercalculator](./vloercalculator) also contains the best practices for Jasmine based unit tests.
+
+# Running the Karma solutions on WSL
+If you are running Windows Subsystem for Linux and you cannot run the tests in the browser please check the option to use ChromeHeadless here https://stackoverflow.com/questions/21895984/is-it-possible-to-run-karma-with-no-browsers-at-all
