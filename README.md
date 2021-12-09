@@ -3,6 +3,7 @@ In this repository you can find the solutions to the exercises used in the Front
 
 - The solutions for exercise 1, 2 and 3 can be found in [vloercalculator](./vloercalculator)
 - The solutions for exercise 4 can be found in [vloercalculator-karma](./vloercalculator-karma)
+- The solutions for exercise 5 can be found in [vloercalculator-cucumber](./vloercalculator-cucumber)
 
 [vloercalculator](./vloercalculator) also contains the best practices for Jasmine based unit tests.
 
