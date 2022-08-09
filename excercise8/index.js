@@ -13,7 +13,7 @@ class NewsChannel {
   }
 
   publishNewsItem(newsItem) {
-    console.log(newsItem);
+    console.log(`${this.channelName}: ${newsItem}`);
   }
 }
 
