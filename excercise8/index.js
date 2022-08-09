@@ -2,7 +2,6 @@ class NewsAgency {
   newsItems = [];
 
   receiveNewsItem(newsItem) {
-    debugger;
     this.newsItems.push(newsItem);
   }
 }
