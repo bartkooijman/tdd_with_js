@@ -1,8 +1,5 @@
 class NewsAgency {
-  newsItems = [];
-
   receiveNewsItem(newsItem) {
-    this.newsItems.push(newsItem);
   }
 }
 
@@ -21,4 +18,4 @@ const dZone = new NewsChannel("DZone");
 
 const newsAgency = new NewsAgency();
 
-newsAgency.receiveNewsItem("New version of JavaScript released: ES3000");
+newsAgency.receiveNewsItem("New version of JavaScript released ES3000");
