@@ -16,4 +16,5 @@ const newProgrammingNewsItem = newsItemFactory.createNewsItem(
   "There is a new version of JavaScript on it's way"
 );
 
-debugger
+console.log(newPatternNewsItem);
+console.log(newProgrammingNewsItem);

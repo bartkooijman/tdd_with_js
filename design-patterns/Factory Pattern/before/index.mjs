@@ -14,4 +14,5 @@ const newProgrammingNewsItem = new ProgrammingNewsItem(
   new Date().getTime()
 );
 
-debugger
+console.log(newPatternNewsItem);
+console.log(newProgrammingNewsItem);
