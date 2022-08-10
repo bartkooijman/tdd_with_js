@@ -1,4 +1,4 @@
-import FancyLogger from './fancyLogger.js'
+import FancyLogger from './fancyLogger.mjs'
 
 const logger = new FancyLogger()
 

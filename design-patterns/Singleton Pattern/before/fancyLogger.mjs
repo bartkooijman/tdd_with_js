@@ -9,6 +9,6 @@ export default class FancyLogger {
   }
 
   printLogCount() {
-    console.log(`${this.logs.length} Logs`)
+    console.log(`Total amount of logs logged so far: ${this.logs.length}`)
   }
 }

@@ -1,4 +1,4 @@
-import logger from './fancyLogger.js'
+import logger from './fancyLogger.mjs'
 
 export default function logFirstImplementation() {
   logger.printLogCount()
