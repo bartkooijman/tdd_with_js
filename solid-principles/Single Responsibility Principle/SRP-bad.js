@@ -28,13 +28,7 @@ class Journal {
   load(path)
   {
     // read 
-  }
-
-  addProduct2Cart(product) {
-    
-  }
-  
-  
+  }  
 }
 Journal.count = 0;
 
