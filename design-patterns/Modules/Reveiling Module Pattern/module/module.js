@@ -21,4 +21,4 @@ const myRevealingModule = {
   getName: publicGetName,
 };
 
-export default myRevealingModule;
+module.exports = myRevealingModule;

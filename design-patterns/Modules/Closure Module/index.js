@@ -1,3 +1,4 @@
+//Module using a closure
 var testModule = (function () {
   var counter = 0;
   return {
