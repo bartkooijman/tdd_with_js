@@ -1,4 +1,4 @@
-export default class NewsAgency {
+class NewsAgency {
   subscribe(newsChannel) {
     //Your code here
   }
@@ -7,3 +7,5 @@ export default class NewsAgency {
     //Your code here
   }
 }
+
+module.exports = NewsAgency;

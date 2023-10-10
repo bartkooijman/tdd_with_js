@@ -24,4 +24,5 @@ class NewsAgency {
 
 const newsAgency = new NewsAgency()
 Object.freeze(newsAgency)
-export default newsAgency
+
+module.exports = newsAgency

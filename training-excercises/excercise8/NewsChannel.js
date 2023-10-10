@@ -1,4 +1,4 @@
-export default class NewsChannel {
+class NewsChannel {
   constructor(channelName) {
     this.channelName = channelName;
   }
@@ -7,3 +7,5 @@ export default class NewsChannel {
     console.log(`${this.channelName}: ${newsItem}`);
   }
 }
+
+module.exports = NewsChannel;
