@@ -3,3 +3,5 @@ package-lock.json
 coverage
 .vscode/extensions.json
 .vscode/launch.json
+training-excercises/excercise8-solution/.vscode/launch.json
+training-excercises/excercise8/.vscode/launch.json

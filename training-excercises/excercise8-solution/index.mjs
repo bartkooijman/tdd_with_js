@@ -1,14 +1,16 @@
 import newsAgency from "./NewsAgency.mjs";
 import NewsChannel from "./NewsChannel.mjs";
 
-const infoQ = new NewsChannel("InfoQ");
-const dZone = new NewsChannel("DZone");
+//A news agency receives news items and makes it available for NewsChannels
+//News channels subscribe to news items from news agencies and show them to their readers
+
+const nos = new NewsChannel("NOS");
+const rtl = new NewsChannel("RTL Nieuws");
 
 //No longer needed when it becomes singleton
 //const newsAgency = new NewsAgency();
 
-//solution
-newsAgency.subscribe(infoQ)
-newsAgency.subscribe(dZone)
+newsAgency.subscribe(nos)
+newsAgency.subscribe(rtl)
 
-newsAgency.receiveNewsItem("New version of JavaScript released ES3000");
+newsAgency.receiveNewsItem("New president elected in the USA");
