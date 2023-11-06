@@ -17,3 +17,7 @@ console.log(interesting4); // What will this output?
 
 const interesting5 = 1 + 2 + "1";
 console.log(interesting5); // What will this output?
+
+console.log(3 == "3"); // What will this output?	
+
+console.log(3 === "3"); // What will this output?
