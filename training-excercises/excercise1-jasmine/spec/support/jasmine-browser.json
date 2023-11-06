@@ -1,15 +1,9 @@
 {
   "srcDir": "src",
-  "srcFiles": [
-    "**/*.?(m)js"
-  ],
+  "srcFiles": ["**/*.?(m)js"],
   "specDir": "spec",
-  "specFiles": [
-    "**/*[sS]pec.?(m)js"
-  ],
-  "helpers": [
-    "helpers/**/*.?(m)js"
-  ],
+  "specFiles": ["**/*[sS]pec.?(m)js"],
+  "helpers": ["helpers/**/*.?(m)js"],
   "env": {
     "stopSpecOnExpectationFailure": false,
     "stopOnSpecFailure": false,
