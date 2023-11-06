@@ -14,6 +14,9 @@ const test = {
 
 
 const getValue = obj.getValue;
-console.log(getValue()); // Outputs: undefined
+console.log(getValue()); // what is the result?
 
-console.log(test.testFunction()); // Outputs: undefined
+console.log(test.testFunction()); // what is the result?
+
+const getValue2 = obj.getValue.bind(obj);
+console.log(getValue2()); // what is the result?
