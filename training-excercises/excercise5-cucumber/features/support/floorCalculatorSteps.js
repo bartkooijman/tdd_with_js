@@ -1,6 +1,6 @@
 const { Given, When, Then } = require("@cucumber/cucumber");
 const assert = require("assert").strict;
-const numberOfPackages = require("../../src/floorCaclulator.js");
+const numberOfPackages = require("../../src/floorCalculator.js");
 
 Given(
   "a product with {float} square meter per package",
