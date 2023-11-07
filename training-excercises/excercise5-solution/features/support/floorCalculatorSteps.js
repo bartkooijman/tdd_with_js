@@ -2,6 +2,8 @@ const { Given, When, Then } = require("@cucumber/cucumber");
 const assert = require("assert").strict;
 const numberOfPackages = require("../../src/floorCalculator.js");
 
+//The challenge is sharing the state accross steps. In this case this
+//refers to the window or global object.
 Given(
   "a product with {float} square meter per package",
   function (squareMetersPerPackage) {

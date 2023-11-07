@@ -14,4 +14,5 @@ class CustomWorld {
   }
 }
 
+//This solves the problem of sharing state between steps using this
 setWorldConstructor(CustomWorld);
