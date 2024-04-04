@@ -5,7 +5,7 @@ newUids = Uids;
 Uids = [];
 console.log(Uids);
 console.log(newUids);
-// what's the output?
-// Uids.length = 0;
-// console.log(Uids);
-// console.log(newUids);
+//what's the output?
+Uids.length = 0;
+console.log(Uids);
+console.log(newUids);

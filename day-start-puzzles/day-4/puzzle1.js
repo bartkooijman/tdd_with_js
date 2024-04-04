@@ -6,6 +6,6 @@ var output = (function(x) {
 console.log(output);
 
 
-// const test = ((number) => {
-//   console.log(number);
-// })(1)
+const test = ((number) => {
+  console.log(number);
+})(1)

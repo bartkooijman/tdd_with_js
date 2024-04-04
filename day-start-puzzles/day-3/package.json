@@ -1,12 +1,14 @@
 {
-  "name": "anti-patterns",
+  "name": "day-3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "unit-indirection.test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
 }
